@@ -1,0 +1,18 @@
+.main-container{
+    padding: 2.5em;
+}
+
+.about-container,
+.interests.container{
+    margin-bottom: 1em;
+}
+
+.section-header{
+    font-size: var(--fs-sh);
+}
+
+.section-paragraph{
+    font-size: var(--fs-p);
+    line-height: 1.4;
+    margin-top: 0.5em;
+}

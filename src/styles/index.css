@@ -1,0 +1,57 @@
+:root{
+    --clr-light: #F5F5F5;
+    --clr-dark: #1A1B21;
+    --clr-ft: #161619;
+    --clr-ft-icon: #918E9B;
+    --clr-bg: #23252C;
+    --clr-accent: #F3BF99;
+
+    --fw-r: 400;
+    --fw-m: 500;
+    --fw-b: 700;
+
+    --fs-name: 1.5625rem;
+    --fs-prof: 0.8rem;
+    --fs-btn: 0.875rem;
+    --fs-sh: 1rem;
+    --fs-p: 0.64rem;
+    --ft-icon: 1.75rem;
+
+    --ff: 'Inter', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: content-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: var(--clr-bg);
+    color: var(--clr-light);
+    font-family: var(--ff);
+}
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
+.body-container{
+    max-width: 320px;
+    height: max-content;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+

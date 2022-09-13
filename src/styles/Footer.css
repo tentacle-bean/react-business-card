@@ -1,0 +1,23 @@
+.footer{
+    background-color: var(--clr-ft);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link{
+    margin: 0.5em 0.5em;
+    font-size: var(--ft-icon);
+    color: var(--clr-ft-icon);
+    transition: all 0.2s;
+}
+
+.footer-link:hover,
+.footer-link:focus{
+    transform: scale(1.1);
+    color: var(--clr-light)
+}
